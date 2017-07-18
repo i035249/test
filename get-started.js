@@ -18,6 +18,7 @@ function onClick() {
   }
   updateLabel();
 }
+
 function inputsAreEmpty() {
   if (getNumber1() === '' || getNumber2() === '') {
     return true;
