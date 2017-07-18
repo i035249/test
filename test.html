@@ -1,0 +1,84 @@
+<!--
+  Copyright 2016 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!doctype html>
+<html>
+  <head>
+    <title>Demo: Get Started Debugging JavaScript with Chrome DevTools</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+	.nnn{
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  position: relative;
+  cursor: pointer;
+  top: 0;
+  left: 39px;
+  margin: 31px;
+  padding: 10px 20px;
+  border: 1px solid #018dc4;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal normal bold 20px/19px Arial Black, Gadget, sans-serif;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(-90deg, rgba(150,150,150,1) 0, rgba(95,95,95,1) 50%, rgba(50,50,50,1) 51%, rgba(30,30,30,1) 100%), #0199d9;
+  background: -moz-linear-gradient(180deg, rgba(150,150,150,1) 0, rgba(95,95,95,1) 50%, rgba(50,50,50,1) 51%, rgba(30,30,30,1) 100%), #0199d9;
+  background: linear-gradient(180deg, rgba(150,150,150,1) 0, rgba(95,95,95,1) 50%, rgba(50,50,50,1) 51%, rgba(30,30,30,1) 100%), #0199d9;
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+      h1 {
+        font-size: 1.5em
+      }
+      input, button {
+        min-width: 72px;
+        min-height: 36px;
+        border: 1px solid grey;
+      }
+      label, input, button {
+        display: block;
+      }
+      input {
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Demo: Get Started Debugging JavaScript with Chrome DevTools</h1>
+    <label for="num1">Number 1</label>
+    <input placeholder="Number 1" id="num1">
+    <label for="num2">Number 2</label>
+    <input placeholder="Number 2" id="num2">
+    <button class='nnn' >Add Number 1 and Number 2</button>
+    <p></p>
+    <script src="get-started.js"></script>
+  </body>
+</html>
